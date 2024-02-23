@@ -1,14 +1,14 @@
 //
-//  Online_ShopTests.swift
-//  Online_ShopTests
+//  OnlineShopTests.swift
+//  OnlineShopTests
 //
 //  Created by  on 23/2/24.
 //
 
 import XCTest
-@testable import Online_Shop
+@testable import OnlineShop
 
-final class Online_ShopTests: XCTestCase {
+final class OnlineShopTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

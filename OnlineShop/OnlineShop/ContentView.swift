@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Online_Shop
+//  OnlineShop
 //
 //  Created by  on 23/2/24.
 //
