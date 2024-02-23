@@ -20,7 +20,7 @@ struct Product{
 }
 
 
-struct MockData {
+struct MockData{
 
     //static let rating = Rating(rate: 3.9, count: 120)
 
