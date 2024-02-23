@@ -9,8 +9,8 @@ import Foundation
 
 
 
-struct Product{
-    var id: Int
+struct Product: Identifiable{
+    let id: Int
     var title:String
     var price: Double
     var description: String
