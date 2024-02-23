@@ -1,13 +1,13 @@
 //
-//  Online_ShopUITestsLaunchTests.swift
-//  Online_ShopUITests
+//  OnlineShopUITestsLaunchTests.swift
+//  OnlineShopUITests
 //
 //  Created by  on 23/2/24.
 //
 
 import XCTest
 
-final class Online_ShopUITestsLaunchTests: XCTestCase {
+final class OnlineShopUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
