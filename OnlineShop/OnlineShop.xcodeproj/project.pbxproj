@@ -18,6 +18,7 @@
 		C2D59CD52B89349D00DF50E2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C2D59CD42B89349D00DF50E2 /* FirebaseFirestore */; };
 		C2D59CD72B89349D00DF50E2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C2D59CD62B89349D00DF50E2 /* FirebaseFirestoreCombine-Community */; };
 		C2D59CD92B89349D00DF50E2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C2D59CD82B89349D00DF50E2 /* FirebaseFirestoreSwift */; };
+		C2D59CDC2B8939A300DF50E2 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D59CDB2B8939A300DF50E2 /* DataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C20F97572B891610005FF70C /* OnlineShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineShopUITests.swift; sourceTree = "<group>"; };
 		C20F97592B891610005FF70C /* OnlineShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C2D59CD12B8930C900DF50E2 /* OnLineShopFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLineShopFirebase.swift; sourceTree = "<group>"; };
+		C2D59CDB2B8939A300DF50E2 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		C2D59CDA2B8937EB00DF50E2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C2D59CDB2B8939A300DF50E2 /* DataBase.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				C20F973F2B89160E005FF70C /* ContentView.swift in Sources */,
 				C2D59CD22B8930C900DF50E2 /* OnLineShopFirebase.swift in Sources */,
+				C2D59CDC2B8939A300DF50E2 /* DataBase.swift in Sources */,
 				C20F973D2B89160E005FF70C /* OnlineShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

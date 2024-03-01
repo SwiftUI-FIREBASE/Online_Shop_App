@@ -11,6 +11,9 @@ import SwiftUI
 struct OnlineShopApp: App {
     var body: some Scene {
         WindowGroup {
+            obtenerProductos { <#Result<Any, Error>#> in
+                <#code#>
+            }
             ContentView()
         }
     }
