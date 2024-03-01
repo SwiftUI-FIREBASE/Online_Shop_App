@@ -19,6 +19,7 @@
 		C20F974E2B891610005FF70C /* OnlineShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F974D2B891610005FF70C /* OnlineShopTests.swift */; };
 		C20F97582B891610005FF70C /* OnlineShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F97572B891610005FF70C /* OnlineShopUITests.swift */; };
 		C20F975A2B891610005FF70C /* OnlineShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F97592B891610005FF70C /* OnlineShopUITestsLaunchTests.swift */; };
+		C2D612DE2B925F5000839347 /* ProductModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D612DD2B925F5000839347 /* ProductModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C20F97532B891610005FF70C /* OnlineShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20F97572B891610005FF70C /* OnlineShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineShopUITests.swift; sourceTree = "<group>"; };
 		C20F97592B891610005FF70C /* OnlineShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2D612DD2B925F5000839347 /* ProductModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				C20C18B72B8933A300BAAF06 /* HomeView.swift */,
 				C20C18BC2B89363700BAAF06 /* ProductRowView.swift */,
 				C20C18BE2B893BCE00BAAF06 /* ProductListView.swift */,
+				C2D612DD2B925F5000839347 /* ProductModalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			files = (
 				C20F973F2B89160E005FF70C /* ContentView.swift in Sources */,
 				C20C18BD2B89363700BAAF06 /* ProductRowView.swift in Sources */,
+				C2D612DE2B925F5000839347 /* ProductModalView.swift in Sources */,
 				C20C18BF2B893BCE00BAAF06 /* ProductListView.swift in Sources */,
 				C20C18B82B8933A300BAAF06 /* HomeView.swift in Sources */,
 				C20C18BB2B89342B00BAAF06 /* Producto.swift in Sources */,

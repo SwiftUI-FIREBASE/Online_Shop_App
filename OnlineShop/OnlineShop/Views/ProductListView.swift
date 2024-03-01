@@ -9,20 +9,38 @@ import SwiftUI
 
 struct ProductListView: View {
     var list: [Product]
+    @State private var showing = false
     var body: some View {
         NavigationSplitView{
             ZStack{
                 List(list){ current in
-                    NavigationLink{
-                        ContentView()
-                    } label: {
+                    
+                    Button(action: {
+                                    showing.toggle()
+                                }) {
+                                    Text("Show Detail")
+                                }.sheet(isPresented: $showing) {
+                                    ProductModalView(producto: current)}
+                    
+                    
+                    /* Button(action: {
+                        showing.toggle()
+                    }, label: {
                         ProductRowView(producto: current)
-                    }
+                    }).sheet(isPresented: $showing, content: {
+                        ProductModalView(producto: current)
+                    })*/
+                    
+                    
                 }
             }
             
             
             .navigationTitle("Ciudades")
+            
+            /*.sheet(isPresented: $showing, content: {
+                ProductModalView(producto: current)
+            })*/
             
         }detail: {
             Text("Select Ciudad")
