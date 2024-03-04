@@ -41,8 +41,5 @@ func obtenerProductos(completion: @escaping (Result<Any, Error>) -> Void) {
     
 }
 
-print(obtenerProductos(completion: { <#Result<Any, Error>#> in
-    <#code#>
-}))
 
 
