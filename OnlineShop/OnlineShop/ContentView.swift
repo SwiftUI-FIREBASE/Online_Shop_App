@@ -7,18 +7,43 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @StateObject private var viewModel = ProductsViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            if viewModel.products.isEmpty {
+                ProgressView("Loading...")
+            } else {
+                List(viewModel.products, id: \.id) { product in
+                    VStack(alignment: .leading) {
+                        Text(product.title)
+                            .font(.headline)
+                        Text(product.description)
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                        Text("$\(product.price)")
+                            .font(.subheadline)
+                    }
+                }
+                .navigationTitle("Products")
+            }
         }
-        .padding()
+        .onAppear {
+            viewModel.fetchProducts { error in
+                if let error = error {
+                    print("Error fetching products: \(error)")
+                }
+            }
+        }
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+
+
